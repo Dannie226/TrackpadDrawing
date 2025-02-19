@@ -13,6 +13,8 @@ workspace "TrackpadDrawing"
         symbols "off"
         optimize "on"
         runtime "Release"
+    
+    startproject "TrackpadDrawing"
 
 include "GLAD"
 include "GLFW"
