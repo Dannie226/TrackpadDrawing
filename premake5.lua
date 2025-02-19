@@ -14,5 +14,6 @@ workspace "TrackpadDrawing"
         optimize "on"
         runtime "Release"
 
+include "GLAD"
 include "GLFW"
 include "TrackpadDrawing"

@@ -17,4 +17,11 @@ GLFW/GLFW.vcxproj
 GLFW/GLFW.vcxproj.user
 GLFW/GLFW.vcxproj.filters
 
+# GLAD objects
+GLAD/obj
+GLAD/bin
 
+# GLFW config
+GLAD/GLAD.vcxproj
+GLAD/GLAD.vcxproj.user
+GLAD/GLAD.vcxproj.filters
