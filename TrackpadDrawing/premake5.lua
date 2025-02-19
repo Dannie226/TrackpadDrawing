@@ -4,12 +4,14 @@ project "TrackpadDrawing"
 
     links {
         "GLFW",
-        "GLAD"
+        "GLAD",
+        "ImGui"
     }
 
     includedirs {
         "../GLFW/include/",
-        "../GLAD/include/"
+        "../GLAD/include/",
+        "../ImGui/"
     }
 
     files {

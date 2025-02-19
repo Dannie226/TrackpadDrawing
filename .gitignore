@@ -22,7 +22,28 @@ GLFW/GLFW.vcxproj.filters
 GLAD/obj
 GLAD/bin
 
-# GLFW config
+# GLAD config
 GLAD/GLAD.vcxproj
 GLAD/GLAD.vcxproj.user
 GLAD/GLAD.vcxproj.filters
+
+# ImGui objects
+ImGui/obj
+ImGui/bin
+
+# ImGui config
+ImGui/ImGui.vcxproj
+ImGui/ImGui.vcxproj.user
+ImGui/ImGui.vcxproj.filters
+
+# ImGui Examples
+ImGui/examples/*
+!ImGui/examples/example_glfw_opengl3/
+
+# ImGui Backends
+ImGui/backends/*
+!ImGui/backends/imgui_impl_glfw.cpp
+!ImGui/backends/imgui_impl_glfw.h
+!ImGui/backends/imgui_impl_opengl3.cpp
+!ImGui/backends/imgui_impl_opengl3.h
+

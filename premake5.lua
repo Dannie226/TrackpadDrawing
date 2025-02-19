@@ -16,4 +16,5 @@ workspace "TrackpadDrawing"
 
 include "GLAD"
 include "GLFW"
+include "ImGui"
 include "TrackpadDrawing"
