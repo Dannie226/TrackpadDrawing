@@ -3,11 +3,13 @@ project "TrackpadDrawing"
     language "C++"
 
     links {
-        "GLFW"
+        "GLFW",
+        "GLAD"
     }
 
     includedirs {
-        "../GLFW/include/"
+        "../GLFW/include/",
+        "../GLAD/include/"
     }
 
     files {
