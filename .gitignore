@@ -1,0 +1,9 @@
+.vs/
+
+# Track Pad Drawing objects
+TrackpadDrawing/obj
+TrackpadDrawing/bin
+
+# Track Pad Drawing config
+TrackpadDrawing/TrackpadDrawing.vcxproj
+TrackpadDrawing/TrackpadDrawing.vcxproj.user
