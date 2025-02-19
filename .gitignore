@@ -7,3 +7,14 @@ TrackpadDrawing/bin
 # Track Pad Drawing config
 TrackpadDrawing/TrackpadDrawing.vcxproj
 TrackpadDrawing/TrackpadDrawing.vcxproj.user
+
+# GLFW objects
+GLFW/obj
+GLFW/bin
+
+# GLFW config
+GLFW/GLFW.vcxproj
+GLFW/GLFW.vcxproj.user
+GLFW/GLFW.vcxproj.filters
+
+
