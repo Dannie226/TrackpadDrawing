@@ -4,6 +4,8 @@ workspace "TrackpadDrawing"
 
     cppdialect "C++20"
 
+    startproject "TrackpadDrawing"
+
     filter "configurations:Debug"
         symbols "on"
         optimize "off"
@@ -14,8 +16,6 @@ workspace "TrackpadDrawing"
         optimize "on"
         runtime "Release"
     
-    startproject "TrackpadDrawing"
-
 include "GLAD"
 include "GLFW"
 include "ImGui"
