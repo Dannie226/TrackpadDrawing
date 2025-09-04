@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="input">
+      <UniqueIdentifier>{B54AA90F-215F-D1C0-EAE0-742056B4CDF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="layers">
+      <UniqueIdentifier>{3588EB0A-212A-16E1-0AE5-2935F6259D31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Buffer.h" />
+    <ClInclude Include="src\Notepad.h" />
+    <ClInclude Include="src\Window.h" />
+    <ClInclude Include="src\input\Device.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layers\Layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layers\NotepadLayer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layers\PaintLayer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\Touchpad.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Buffer.cpp" />
+    <ClCompile Include="src\Notepad.cpp" />
+    <ClCompile Include="src\Window.cpp" />
+    <ClCompile Include="src\input\Device.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layers\NotepadLayer.cpp">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layers\PaintLayer.cpp">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\input\Touchpad.cpp" />
+  </ItemGroup>
+</Project>

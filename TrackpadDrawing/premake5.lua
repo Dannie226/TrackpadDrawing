@@ -5,7 +5,9 @@ project "TrackpadDrawing"
     links {
         "GLFW",
         "GLAD",
-        "ImGui"
+        "ImGui",
+        "Comctl32.lib",
+        "hid.lib"
     }
 
     includedirs {
